@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ipod": "cd ios && pod install",
+    "clean": "cd android && ./gradlew clean"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^7.2.0",
@@ -21,6 +23,7 @@
     "react-native-reanimated": "^3.16.6",
     "react-native-safe-area-context": "^5.0.0",
     "react-native-screens": "^4.4.0",
+    "react-native-splash-screen": "^3.3.0",
     "react-native-vector-icons": "^10.2.0",
     "react-redux": "^9.2.0"
   },
